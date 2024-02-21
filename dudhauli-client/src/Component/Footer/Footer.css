@@ -1,0 +1,24 @@
+.bottom-carousel {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color:rgb(35, 35, 131);
+  color: #fff;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.title {
+  position: absolute;
+  background-color: rgb(35, 35, 131);
+  width: 8%;
+  font-size: 25px;
+  color: #fff;
+  z-index: 1; 
+}
+
+/* .carousel-item {
+  position: relative;
+  z-index: 0;
+} */

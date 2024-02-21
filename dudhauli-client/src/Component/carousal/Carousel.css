@@ -1,0 +1,237 @@
+.container{
+  width: 100%;
+}
+
+.carousel-container {
+    width: 900px;
+    max-width: 700px;
+    height: 600px;
+    position: absolute;
+    top: 130px;
+    left: 100px;
+    overflow: hidden;
+  }
+  
+  .second-carousel-container,
+  .third-carousel-container {
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    top: 130px;
+    margin-left: 350px;
+    overflow: hidden;
+    padding: 10px;
+  }
+  
+  .second-carousel-container {
+    left: 420px;
+  }
+  
+  .third-carousel-container {
+    left: 640px;
+  }
+  .video-container {
+    width: 450px; 
+    height: 250px; 
+    position: absolute;
+    top: 350px; 
+    left: 750px;
+    overflow: hidden;
+}
+
+.video-container video {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.video-container video:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+  .slick-next {
+    font-size: 18px;
+    color: #fff; /* Set the arrow color */
+  }
+  
+  .slick-prev:hover,
+  .slick-next:hover {
+    color: #ffcc00; /* Set the arrow color on hover */
+  }
+  
+  .slick-slide img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .slick-slide:hover img {
+    transform: scale(1.1); /* Scale up the image on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow on hover */
+  }
+  
+  @media (max-width: 600px) {
+    .container{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+    }
+    .carousel-container {
+      width: 100%;
+      height: 35%;
+      top: 18%;
+      left: 0px;
+    }
+  
+    .second-carousel-container
+   {
+      width: 20%;
+      height: 20%;
+      top: 22%;
+     transform: translate(-50%, -50%);
+    margin-left: 50px;
+    }
+    .third-carousel-container {
+      
+      width: 20%;
+      height: 20%;
+      top:43%;
+    transform: translate(-50%, -50%);
+    margin-left: -170px;
+    }
+
+  
+    .slick-next {
+      font-size: 5px;
+    }
+  
+    .slick-slide img {
+      border-radius: 5px;
+    }
+    .video-container {
+      width: 100%; 
+      height: 40%;
+      margin-top: 50px; 
+      margin-left:-750px;
+    }
+  
+    
+  }
+  
+  @media (max-width: 600px) {
+    
+    .slick-next {
+      font-size: 4px;
+    }
+  
+    /* .slick-slide img {
+      border-radius: 2px;
+    } */
+  }
+ 
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items:last baseline;
+  justify-content: center;
+}
+
+.carousel-text {
+  color: #fff;
+  font-size: 10px;
+
+}
+@media only screen and (min-width: 768px){
+  .container{
+    width: 100%;
+  }
+  
+  .carousel-container {
+      width: 900px;
+      height: 530px;
+      position: absolute;
+      top: 120px;
+      left: 90px;
+      overflow: hidden;
+    }
+    
+    .second-carousel-container,
+    .third-carousel-container {
+      width: 150px;
+      height: 200px;
+      position: absolute;
+      top: 115px;
+      margin-left: 450px;
+      overflow: hidden;
+      padding: 10px;
+    }
+    
+    .second-carousel-container {
+      left: 460px;
+    }
+    
+    .third-carousel-container {
+      left: 640px;
+    }
+    .video-container {
+      width: 500px; 
+      height: 250px; 
+      position: absolute;
+      top: 350px; 
+      left: 850px;
+      overflow: hidden;
+  }
+  
+  .video-container video {
+      width: 100%;
+      height: 100%;
+      border-radius: 8px;
+      /* box-shadow: 0 2px 4px rgba(238, 228, 228, 0.1); */
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .video-container video:hover {
+      transform: scale(1.1);
+      box-shadow: 0 4px 8px rgba(211, 168, 168, 0.2);
+  }
+  
+    
+    .slick-next {
+      font-size: 18px;
+      color: #fff; /* Set the arrow color */
+    }
+    
+    /* .slick-prev:hover,
+    .slick-next:hover {
+      color: #ffcc00; /* Set the arrow color on hover */
+    
+    
+    /* .slick-slide img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+    
+    .slick-slide:hover img {
+      transform: scale(1.1); 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    } */
+    
+  }
+
+  
